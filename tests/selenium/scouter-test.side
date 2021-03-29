@@ -24,12 +24,12 @@
       "id": "63256ccb-182a-4b11-8b29-f8ace4b13a91",
       "comment": "",
       "command": "click",
-      "target": "css=.bg-blue-500:nth-child(3)",
+      "target": "css=.text-xs > .font-bold",
       "targets": [
-        ["css=.bg-blue-500:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='app']/div/button", "xpath:idRelative"],
-        ["xpath=//body/div/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'予定を追加する')]", "xpath:innerText"]
+        ["css=.text-xs > .font-bold", "css:finder"],
+        ["xpath=//div[@id='app']/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'予定を追加する')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
