@@ -378,18 +378,6 @@
       ],
       "value": ""
     }, {
-      "id": "458ff8cf-b410-442b-b422-8f066d1dfe4f",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.text-gray-800",
-      "targets": [
-        ["css=.text-gray-800", "css:finder"],
-        ["xpath=//div[@id='app']/div/h2", "xpath:idRelative"],
-        ["xpath=//h2", "xpath:position"],
-        ["xpath=//h2[contains(.,'2021年2月')]", "xpath:innerText"]
-      ],
-      "value": "${last_month}"
-    }, {
       "id": "d63e3f65-f1fb-420d-ac53-abe521c8b527",
       "comment": "",
       "command": "click",
