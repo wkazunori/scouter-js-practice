@@ -350,9 +350,9 @@
         ["css=.relative:nth-child(2) p:nth-child(3)", "css:finder"],
         ["xpath=//div[@id='app']/div/div[3]/div[2]/div[2]/div[2]/div/p[2]", "xpath:idRelative"],
         ["xpath=//p[2]", "xpath:position"],
-        ["xpath=//p[contains(.,'終了予定01:00')]", "xpath:innerText"]
+        ["xpath=//p[contains(.,'終了予定')]", "xpath:innerText"]
       ],
-      "value": "終了予定01:00"
+      "value": "終了予定"
     }, {
       "id": "fbe10c65-2040-49d6-829c-5725b1aa8ae5",
       "comment": "",
@@ -362,9 +362,9 @@
         ["css=.relative:nth-child(3) p:nth-child(2)", "css:finder"],
         ["xpath=//div[@id='app']/div/div[3]/div[2]/div[2]/div[3]/div/p", "xpath:idRelative"],
         ["xpath=//div[3]/div/p", "xpath:position"],
-        ["xpath=//p[contains(.,'開始01:00')]", "xpath:innerText"]
+        ["xpath=//p[contains(.,'開始')]", "xpath:innerText"]
       ],
-      "value": "開始01:00"
+      "value": "開始"
     }, {
       "id": "94a50475-10a4-4f3d-a73e-5d7f836f4d06",
       "comment": "",
