@@ -362,9 +362,9 @@
         ["css=.relative:nth-child(3) p:nth-child(2)", "css:finder"],
         ["xpath=//div[@id='app']/div/div[3]/div[2]/div[2]/div[3]/div/p", "xpath:idRelative"],
         ["xpath=//div[3]/div/p", "xpath:position"],
-        ["xpath=//p[contains(.,'開始')]", "xpath:innerText"]
+        ["xpath=//p[contains(.,'開始02:00')]", "xpath:innerText"]
       ],
-      "value": "開始"
+      "value": "開始02:00"
     }, {
       "id": "94a50475-10a4-4f3d-a73e-5d7f836f4d06",
       "comment": "",
