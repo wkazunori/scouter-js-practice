@@ -2,15 +2,8 @@
   <div class="bg-gray-100 pb-60">
     <div class="max-w-l mx-auto p-1 pt-10 pr-0 text-center">
       <h2 class="text-lg font-bold text-gray-800">{{ displayMonth }}</h2>
-      <form
-        class="flex justify-center items-center my-10"
-        v-on:submit.prevent="jumpCalendar"
-      >
-        <input
-          class="bg-purple-white shadow rounded border-0 p-2 mr-4"
-          type="text"
-          v-model="jumpYear"
-        />
+      <form class="flex justify-center items-center my-10" v-on:submit.prevent="jumpCalendar" >
+        <input class="bg-purple-white shadow rounded border-0 p-2 mr-4" type="text" v-model="jumpYear" />
         <p class="mr-4 text-lg font-bold text-gray-800">年</p>
         <input
           class="bg-purple-white shadow rounded border-0 p-2 mr-4"
